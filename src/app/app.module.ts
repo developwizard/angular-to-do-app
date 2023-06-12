@@ -12,6 +12,7 @@ import {AppRoutingModule} from "./app-routing.module";
     AppComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     NavbarComponent,
