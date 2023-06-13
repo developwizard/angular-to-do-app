@@ -2,6 +2,12 @@
   width: 100%;
 }
 
+.box {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+}
+
 .example-container {
   width: 400px;
   max-width: 100%;
